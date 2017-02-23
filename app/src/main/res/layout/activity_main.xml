@@ -1,0 +1,62 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.nirbhaya.MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/gps"
+        android:id="@+id/button1"/>
+  <!--      android:background="?attr/selectableItemBackgroundBorderless"-->
+
+        />
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button1"
+        android:id="@+id/button3"
+        android:background="@drawable/message"/>
+     <!--   android:background="?attr/selectableItemBackgroundBorderless"-->
+        />
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/button4"
+        android:background="@drawable/flash"/>
+       <!-- android:background="?attr/selectableItemBackgroundBorderless"-->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ausio"/>
+   <!--     android:background="?attr/selectableItemBackgroundBorderless"/>-->
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sound_icon"/>
+    <!--    android:background="?attr/selectableItemBackgroundBorderless"/>-->
+</RelativeLayout>
+    <include layout="@layout/include_nav_drawer"></include>
+</android.support.v4.widget.DrawerLayout>
